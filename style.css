@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+.form-bg {
+  background: rgb(87, 87, 87);
+  height: 200vh;
+  padding: 20px 0 0 0;
+}
+.container {
+  background: #f2f2f2;
+  width: 70%;
+  margin: auto;
+  padding: 1px 0 15px 0;
+}
+.head {
+  text-align: center;
+  width: 84%;
+  margin: 5px auto;
+  text-transform: uppercase;
+}
+.head button {
+  display: block;
+  margin-left: auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: transparent;
+  background: #198754;
+  color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+.form {
+  border: 1px solid #ced4da;
+  background: #e9ecef;
+  width: 80%;
+  margin: 15px auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+}
+label {
+  display: block;
+  width: 30%;
+}
+form input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: 1px solid #adb5bd;
+}
+input[type="submit"] {
+  background-color: #0d6efd;
+  color: #fff;
+  display: block;
+  margin: 5px auto;
+  width: 25%;
+  border: none;
+  cursor: pointer;
+}
+table {
+  width: 85%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+table th,
+table td {
+  border: 1px dotted #adb5bd;
+  padding: 5px 15px;
+  background: #f8f9fa;
+}
+.delete-btn,
+.update-btn {
+  cursor: pointer;
+}
+.delete-btn {
+  color: #dc3545;
+  margin-left: 10px;
+}
+.update-btn {
+  color: #20c997;
+  /* margin-left: 15px; */
+}
+tbody {
+  text-align: center;
+}
+/* 
+$blue:    #0d6efd;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #d63384;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #198754;
+$teal:    #20c997;
+$cyan:    #0dcaf0; 
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$primary:       $blue;
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-900;
+*/
